@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
+    [SerializeField] private float turnSpeed = 0;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
     }
 
@@ -15,5 +16,6 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed);
     }
 }
