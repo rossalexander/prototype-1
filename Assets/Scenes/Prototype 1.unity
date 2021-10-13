@@ -529,6 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d897d72c6588f3459e881182ce78afb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1141869572}
 --- !u!1 &623085198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8780424320546655309, guid: 71782582b9d2cac4cba5251a3b767d13, type: 3}
@@ -713,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a07157d825adb6142ad433d1c7ba6c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
 --- !u!1001 &1169570733
 PrefabInstance:
   m_ObjectHideFlags: 0
